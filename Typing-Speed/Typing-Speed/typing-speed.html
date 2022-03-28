@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./typing-speed.css">
+    <title>Typing Speed</title>
+</head>
+<body>
+   <div id="container">
+       <header>
+           <h1>Test your Typing Speed</h1>
+        </header>
+        <section >
+            <ul id="attributes">
+                <section id="dynamic-card"></section>
+                <li id="error-card" class="attribute">
+                    <section class="attribute-name">Errors</section>
+                    <section id="error" class="value">0</section>
+                </li>
+                <li id="timer-card" class="attribute">
+                    <section class="attribute-name">Time</section>
+                    <section id="timer" class="value">5s</section>
+                </li>
+                <li id="acc-card" class="attribute">
+                    <section class="attribute-name">% Accuracy</section>
+                    <section id="accuracy" class="value">100</section>
+                </li>
+            </ul>
+        </section>
+        <section class="random-text">
+            <p id="text">Click on the area below to start the game</p>
+        </section>
+        <section class="typing-area">
+            <input type="text" id="typing-area" placeholder="start typing here...">
+        </section>
+        <section class="restart">
+            <button type="button" id="restart">Restart</button>
+        </section>
+   </div>
+    
+
+
+    <script src="./typing-speed.js"></script>
+</body>
+</html>

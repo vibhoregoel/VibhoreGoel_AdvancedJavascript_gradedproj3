@@ -1,0 +1,95 @@
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 5px;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    margin: 0%;
+}
+
+#attributes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+    margin-bottom: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.attribute{
+    width: 70px;
+    padding: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-align: center;
+    background-color: rgba(158, 158, 45, 0.9);
+    border-radius: 8px;
+    box-shadow: 5px 5px gray;
+}
+
+.attribute-name{
+    font-size: small;
+}
+
+.value{
+    font-size: xx-large;
+}
+
+.random-text{
+    width: max-content;
+    padding: 10px;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(158, 158, 45, 0.9);
+    box-shadow: 5px 5px gray;
+}
+
+p{
+    margin: 0%;
+}
+
+.typing-area{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 97%;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(235, 228, 170, 0.9);
+    box-shadow: 5px 5px gray;
+    font-size: larger;
+    color: rgb(58, 56, 56);
+}
+
+input:focus{
+    outline: none;
+    color: rgb(58, 56, 56);
+}
+
+.restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size: large;
+    padding: 5px;
+    background-color: rgba(9, 43, 5, 0.7);
+    border: none;
+    box-shadow: 3px 3px gray;
+    cursor: pointer;
+}
